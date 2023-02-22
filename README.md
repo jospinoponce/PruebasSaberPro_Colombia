@@ -27,11 +27,19 @@ Packages: pandas, numpy,  matplotlib, seaborn
 - Se grafica la distribución de las variables numéricas más representativas.
 - Se usa metodología 3 Sigma para detección de outliers.
 
-<img src="_src/image_3.png" width="1000" >
+<img src="_src/image_1.png" width="500" height="300px"> 
+
 <hr>
 
 ## EDA
-El dataset no muestra el desempeño de los estudiantes  en **razonamiento cuantitativo**, **lectura crítica** y **competencia ciudadana**. El icfes (Instituto Colombiano para la Evaluación de la Calidad de la Educación) establece una nota de 1 a 4. siendo 1 el más bajo y 4 la nota más alta.El desempeño se calcula con el puntaje (cantidad de preguntas respondidas correctamente) a través de la siguiente relación.<br>
+- Se generan nuevas variables, correspondientes al desempeño general. 
+- Se grafican las variables categoricas.
+- Se grafican las variables numericas.
+
+<img src="_src/image_2.png" width="600" height="400px">
+<img src="_src/image_3.png" width="600" height="200px">
+
+El dataset no muestra el desempeño de los estudiantes  en **razonamiento cuantitativo**, **lectura crítica** y **competencia ciudadana**. El icfes (Instituto Colombiano para la Evaluación de la Calidad de la Educación) establece una nota de 1 a 4. siendo 1 el más bajo y 4 la nota más alta. El desempeño se calcula con el puntaje (cantidad de preguntas respondidas correctamente) a través de la siguiente relación.<br>
 
 | **Preguntas Correctas** | **Desempeño** |
 |:-----------------------:|:-------------:|
@@ -40,7 +48,7 @@ El dataset no muestra el desempeño de los estudiantes  en **razonamiento cuanti
 |         116-149         |       2       |
 |          0-115          |       1       |
 
-*fuente:https://www.icfes.gov.co/*
+*[fuente](https://www.icfes.gov.co/)*
 
 Para el desempeño en el aréa de ingles va desde -A1, A1, B1.. hasta B2 siendo B2 el mas alto.
  
@@ -53,6 +61,10 @@ Para el desempeño en el aréa de ingles va desde -A1, A1, B1.. hasta B2 siendo 
 |          0-122          |      -A1      |      0.5      |
 
 
-*fuente:https://www.icfes.gov.co/*
+*[fuente](https://www.icfes.gov.co/)*
+
+<hr>
+
+## Correlación de varibles
 
 <hr>
