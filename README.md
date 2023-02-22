@@ -3,7 +3,7 @@
 ## Introducción <br>
 *El ICFES (Instituto Colombiano para la Evaluación de la Calidad de la Educación) realiza anualmente las Pruebas Saber Pro para conocer el desarrollo de las competencias de los estudiantes que están por finalizar sus carreras Universitarias.*<br>
 
-Se analiza un dataset de 991577 registros. Este contiene el resultado de las pruebas desde 2018 hasta el 2021 de todos los estudiantes que las realizaron en el país. Las variables **MOD_RAZONA_CUANTITAT_PUNT, MOD_LECTURA_CRITICA_PUNT, MOD_COMPETEN_CIUDADA_PUNT, MOD_INGLES_PUNT** representan el número de respuestas acertadas por cada estudiante en un rango de 0-300 y en las competencias de **Razonamiento Cuantitativo, Lectura critica, Competencia Ciudadana** e **Inglés**.
+Se analiza un dataset que contiene el resultado de estas pruebas desde 2018 hasta el 2021 de todos los estudiantes que las realizaron en el país. Las variables **MOD_RAZONA_CUANTITAT_PUNT, MOD_LECTURA_CRITICA_PUNT, MOD_COMPETEN_CIUDADA_PUNT, MOD_INGLES_PUNT** representan el número de respuestas acertadas por cada estudiante en un rango de 0-300 y en las competencias de **Razonamiento Cuantitativo, Lectura critica, Competencia Ciudadana** e **Inglés**.
 <hr>
 
 ## Objetivos
@@ -40,7 +40,7 @@ El dataset no muestra el desempeño de los estudiantes  en **razonamiento cuanti
 |         116-149         |       2       |
 |          0-115          |       1       |
 
-*fuente:*
+*fuente:https://www.icfes.gov.co/*
 
 Para el desempeño en el aréa de ingles va desde -A1, A1, B1.. hasta B2 siendo B2 el mas alto.
  
@@ -53,6 +53,6 @@ Para el desempeño en el aréa de ingles va desde -A1, A1, B1.. hasta B2 siendo 
 |          0-122          |      -A1      |      0.5      |
 
 
-*fuente:*
+*fuente:https://www.icfes.gov.co/*
 
 <hr>
