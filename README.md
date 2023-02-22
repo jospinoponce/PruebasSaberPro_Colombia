@@ -63,6 +63,9 @@ Para el desempeño en el aréa de ingles va desde -A1, A1, B1.. hasta B2 siendo 
 
 *[fuente](https://www.icfes.gov.co/)*
 
+
+<img src="_src/image_4.png" width="900" height="1600px">
+
 <hr>
 
 ## Correlación de varibles
