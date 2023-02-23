@@ -1,18 +1,42 @@
-# EDA Pruebas Universitarias Colombia  SaberPro (2018-2021)
+<center> <h1> EDA Pruebas Universitarias Colombia  SaberPro (2018-2021) </h1></center>
 
 ## Introducción <br>
+
 *El ICFES (Instituto Colombiano para la Evaluación de la Calidad de la Educación) realiza anualmente las Pruebas Saber Pro para conocer el desarrollo de las competencias de los estudiantes que están por finalizar sus carreras Universitarias.*<br>
 
-Se analiza un dataset que contiene el resultado de estas pruebas desde 2018 hasta el 2021 de todos los estudiantes que las realizaron en el país. Las variables **MOD_RAZONA_CUANTITAT_PUNT, MOD_LECTURA_CRITICA_PUNT, MOD_COMPETEN_CIUDADA_PUNT, MOD_INGLES_PUNT** representan el número de respuestas acertadas por cada estudiante en un rango de 0-300 y en las competencias de **Razonamiento Cuantitativo, Lectura critica, Competencia Ciudadana** e **Inglés**.
+Se busca realizar un análisis a los datos que contienen los resultados de estas pruebas desde 2018 hasta 2021 teniendo en cuenta el perfil socioeconómico de cada estudiante. <br>
+
+La fuente de los datos es una [tabla](https://github.com/jospinoponce/EDA_ResultadoPruebasUniversitariasSaberPro/tree/main/Dataset) 
+. Tiene las variables **MOD_RAZONA_CUANTITAT_PUNT, MOD_COMUNI_ESCRITA_PUNT,  MOD_LECTURA_CRITICA_PUNT, MOD_COMPETEN_CIUDADA_PUNT,** y **MOD_INGLES_PUNT**. Representan el número de respuestas acertadas por cada estudiante en un rango de 0-300 y en las competencias de **Razonamiento Cuantitativo, Comunicación Escrita, Lectura critica, Competencia Ciudadana** e **Inglés**.<br>
+
+
+Para evalúar las competencias mencionadas se implementa el desempeño numérico que establece el Icfes. De 1 a 4 (*siendo 1 el más bajo*) por medio de la relación a continuacíon. El desempeño en el área de ingles es  -A1, A1, B1 hasta B2 (*siendo 0.5 el más bajo*)
+ <br> 
+ 
+
+| **Razonamiento cuantitativo,  lectura crítica  competencia ciudadana** |               |        **Inglés**       |               |     |
+|:----------------------------------------------------------------------:|:-------------:|:-----------------------:|:-------------:|:---:|
+|                         **Preguntas Correctas**                        | **Desempeño** | **Preguntas Correctas** | **Desempeño** |     |
+|                                 185-300                                |       4       |         200-300         |       B2      |  4  |
+|                                 150-184                                |       3       |         180-199         |       B1      |  3  |
+|                                 116-149                                |       2       |         146-179         |       A2      |  2  |
+|                                  0-115                                 |       1       |         123-145         |       A1      |  1  |
+|                                                                        |               |          0-122          |      -A1      | 0.5 |
+
+*[fuente](https://www.icfes.gov.co/)*
+
 <hr>
 
 ## Objetivos
-* Observar el desempeño de los estudiantes en las pruebas.<br>
-* Determinar que variables tienen mayor correlacion con un rendimiento positivo de la prueba.<br>
+
+* Establecer el desempeño de que tuvieron los estudiantes en las pruebas.<br>
+* Generar analísis y visualizaciones del comportamiento de los datos en las pruebas.<br>
+* Determinar que factores influyen más el desempeño de la prueba.<br>
+* Validar si el contexto socioeconomico influye en el buen desempeño de las pruebas.<br>
 <hr>
 
 ## Recursos implementados:
-DataSource: https://www.datos.gov.co/Educaci-n/Resultados-nicos-Saber-Pro/u37r-hjmu <br>
+DataSource: [ICFES_origen](https://www.datos.gov.co/Educaci-n/Resultados-nicos-Saber-Pro/u37r-hjmu) <br>
 Python Version: 3.9<br>
 Packages: pandas, numpy,  matplotlib, seaborn
 <hr>
@@ -37,29 +61,6 @@ Packages: pandas, numpy,  matplotlib, seaborn
 - Se grafican las variables numericas.<br>
 
 
-El dataset no muestra el desempeño de los estudiantes  en **razonamiento cuantitativo**, **lectura crítica** y **competencia ciudadana**. El icfes (Instituto Colombiano para la Evaluación de la Calidad de la Educación) establece una nota de 1 a 4. siendo 1 el más bajo y 4 la nota más alta. El desempeño se calcula con el puntaje (cantidad de preguntas respondidas correctamente) a través de la siguiente relación.<br>
-
-| **Preguntas Correctas** | **Desempeño** |
-|:-----------------------:|:-------------:|
-|         185-300         |       4       |
-|         150-184         |       3       |
-|         116-149         |       2       |
-|          0-115          |       1       |
-
-*[fuente](https://www.icfes.gov.co/)*
-
-Para el desempeño en el aréa de ingles va desde -A1, A1, B1.. hasta B2 siendo B2 el mas alto.
- 
-| **Preguntas Correctas** | **Desempeño** | **Desempeño** |
-|:-----------------------:|:-------------:|:-------------:|
-|         200-300         |       B2      |       4       |
-|         180-199         |       B1      |       3       |
-|         146-179         |       A2      |       2       |
-|         123-145         |       A1      |       1       |
-|          0-122          |      -A1      |      0.5      |
-
-
-*[fuente](https://www.icfes.gov.co/)*
 
 *variables categoricas*
 
@@ -74,5 +75,10 @@ Para el desempeño en el aréa de ingles va desde -A1, A1, B1.. hasta B2 siendo 
 <hr>
 
 ## Correlación de varibles
+
+<hr>
+
+
+## Concluciones
 
 <hr>
