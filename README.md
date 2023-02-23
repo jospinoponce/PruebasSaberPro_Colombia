@@ -4,26 +4,18 @@
 
 *El ICFES (Instituto Colombiano para la Evaluación de la Calidad de la Educación) realiza anualmente las Pruebas Saber Pro para conocer el desarrollo de las competencias de los estudiantes que están por finalizar sus carreras Universitarias.*<br>
 
-Se busca realizar un análisis a los datos que contienen los resultados de estas pruebas desde 2018 hasta 2021 teniendo en cuenta el perfil socioeconómico de cada estudiante. <br>
+Se pretende llevar a cabo un análisis de datos a los resultados de estas pruebas desde 2018 hasta 2021 teniendo en cuenta el perfil socioeconómico de cada estudiante suministrado por el ICFES. <br>
 
-La fuente de los datos es una [tabla](https://github.com/jospinoponce/EDA_ResultadoPruebasUniversitariasSaberPro/tree/main/Dataset) 
-. Tiene las variables **MOD_RAZONA_CUANTITAT_PUNT, MOD_COMUNI_ESCRITA_PUNT,  MOD_LECTURA_CRITICA_PUNT, MOD_COMPETEN_CIUDADA_PUNT,** y **MOD_INGLES_PUNT**. Representan el número de respuestas acertadas por cada estudiante en un rango de 0-300 y en las competencias de **Razonamiento Cuantitativo, Comunicación Escrita, Lectura critica, Competencia Ciudadana** e **Inglés**.<br>
+Para el desarrollo del proyecto se realiza:
+- Data Enginery
+
+**Data Cleaning**<br>
+**EDA**<br>
+**Creación de DataWarehouse**<br>
+**Dashboard** <br>
 
 
-Para evalúar las competencias mencionadas se implementa el desempeño numérico que establece el Icfes. De 1 a 4 (*siendo 1 el más bajo*) por medio de la relación a continuacíon. El desempeño en el área de ingles es  -A1, A1, B1 hasta B2 (*siendo 0.5 el más bajo*)
- <br> 
  
-
-| **Razonamiento cuantitativo,  lectura crítica  competencia ciudadana** |               |        **Inglés**       |               |     |
-|:----------------------------------------------------------------------:|:-------------:|:-----------------------:|:-------------:|:---:|
-|                         **Preguntas Correctas**                        | **Desempeño** | **Preguntas Correctas** | **Desempeño** |     |
-|                                 185-300                                |       4       |         200-300         |       B2      |  4  |
-|                                 150-184                                |       3       |         180-199         |       B1      |  3  |
-|                                 116-149                                |       2       |         146-179         |       A2      |  2  |
-|                                  0-115                                 |       1       |         123-145         |       A1      |  1  |
-|                                                                        |               |          0-122          |      -A1      | 0.5 |
-
-*[fuente](https://www.icfes.gov.co/)*
 
 <hr>
 
