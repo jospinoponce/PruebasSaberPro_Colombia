@@ -20,14 +20,14 @@ Packages: pandas, numpy,  matplotlib, seaborn
 ## Data Cleaning
 - Se eliminan  variables no relevantes al analisís.<br>
 - Se realiza gestión de datos nulos para variables categoricas, numéricas.<br>
-- Se da formato a las columnas del dataframe. 
+- Se da formato a los datos del dataframe. 
 <hr>
 
 ## Datos atípicos
 - Se grafica la distribución de las variables numéricas más representativas.
 - Se usa metodología 3 Sigma para detección de outliers.
 
-<img src="Anexos/_src/image_1.png" width="700" height="350px"> 
+<img src="_src/image_1.png" width="700" height="350px"> 
 
 <hr>
 
@@ -63,13 +63,13 @@ Para el desempeño en el aréa de ingles va desde -A1, A1, B1.. hasta B2 siendo 
 
 *variables categoricas*
 
-<img src="Anexos/_src/image_2.png" width="600" height="400px">
-<img src="Anexos/_src/image_3.png" width="600" height="200px">
+<img src="_src/image_2.png" width="600" height="400px">
+<img src="_src/image_3.png" width="600" height="200px">
 
 
 
 
-<img src="Anexos/_src/image_4.png" width="900" height="1600px">
+<img src="_src/image_4.png" width="900" height="1600px">
 
 <hr>
 
