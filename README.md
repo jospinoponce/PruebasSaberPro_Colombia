@@ -62,8 +62,10 @@ Se realiza un EDA a una tabla de datos [data_origen](https://www.datos.gov.co/Ed
 
 
 
-<img src="Anexos/_src/image_4.png" width="900" height="1600px">
 
+*variables numéricas*
+
+<img src="Anexos/_src/image_5.png" width="600" height="200px">
 
 ### Correlación de varibles
 
