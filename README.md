@@ -1,22 +1,16 @@
-<center> <h1> EDA Pruebas Universitarias Colombia  SaberPro (2018-2021) </h1></center>
+#  <h1>  p_03-001 Analísis de Datos a Pruebas Universitarias Colombia  SaberPro (2018-2021) </h1> 
 
-## Introducción <br>
+## Introducción
 
 *El ICFES (Instituto Colombiano para la Evaluación de la Calidad de la Educación) realiza anualmente las Pruebas Saber Pro para conocer el desarrollo de las competencias de los estudiantes que están por finalizar sus carreras Universitarias.*<br>
 
 Se pretende llevar a cabo un análisis de datos a los resultados de estas pruebas desde 2018 hasta 2021 teniendo en cuenta el perfil socioeconómico de cada estudiante suministrado por el ICFES. <br>
 
 Para el desarrollo del proyecto se realiza:
-- Data Enginery
 
-**Data Cleaning**<br>
-**EDA**<br>
-**Creación de DataWarehouse**<br>
-**Dashboard** <br>
-
-
- 
-
+**Analísis Exploratorío de Datos EDA.**<br>
+**Creación de DataWarehouse.**<br>
+**Visualización de datos.** <br>
 <hr>
 
 ## Objetivos
@@ -24,22 +18,28 @@ Para el desarrollo del proyecto se realiza:
 * Establecer el desempeño de que tuvieron los estudiantes en las pruebas.<br>
 * Generar analísis y visualizaciones del comportamiento de los datos en las pruebas.<br>
 * Determinar que factores influyen más el desempeño de la prueba.<br>
-* Validar si el contexto socioeconomico influye en el buen desempeño de las pruebas.<br>
+
 <hr>
 
 ## Recursos implementados:
-DataSource: [ICFES_origen](https://www.datos.gov.co/Educaci-n/Resultados-nicos-Saber-Pro/u37r-hjmu) <br>
+
 Python Version: 3.9<br>
 Packages: pandas, numpy,  matplotlib, seaborn
 <hr>
 
-## Data Cleaning
+##  Analísis Exploratorío de Datos EDA
+
+Se realiza un EDA a una tabla de datos [data_origen](https://www.datos.gov.co/Educaci-n/Resultados-nicos-Saber-Pro/u37r-hjmu) alojada en los repositorios de los datos abiertos del Gobierno de Colombia.  https://www.datos.gov.co/. <br>
+
+
+### Limpieza de Datos
+[preview](https://github.com/jospinoponce/EDA_ResultadoPruebasUniversitariasSaberPro/blob/main/Dataset/preview.md) de la tabla antes de realizar el EDA.. <br>
 - Se eliminan  variables no relevantes al analisís.<br>
 - Se realiza gestión de datos nulos para variables categoricas, numéricas.<br>
-- Se da formato a las columnas del dataframe. 
-<hr>
+- Se da formato, ajustes a los tipos de variables presentes en el proyecto.<br> 
 
-## Datos atípicos
+[Control de cambios](https://github.com/jospinoponce/EDA_ResultadoPruebasUniversitariasSaberPro/tree/main/Anexos/control_cambios) muestra detalladamente los cambios realizados en este proceso.
+### Datos atípicos
 - Se grafica la distribución de las variables numéricas más representativas.
 - Se usa metodología 3 Sigma para detección de outliers.
 
@@ -64,12 +64,14 @@ Packages: pandas, numpy,  matplotlib, seaborn
 
 <img src="Anexos/_src/image_4.png" width="900" height="1600px">
 
+### Interpretación de los datos
+
+### Correlación de varibles
+
 <hr>
 
-## Correlación de varibles
-
+## DataWarehouse
 <hr>
-
 
 ## Concluciones
 
