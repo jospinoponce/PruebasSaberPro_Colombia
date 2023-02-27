@@ -57,7 +57,7 @@ Se realiza un EDA a una tabla de datos [data_origen](https://www.datos.gov.co/Ed
 *Variables categoricas*
 
 <img src="Anexos/_src/image_2.png" width="600" height="400px">
-<img src="Anexos/_src/image_3.png" width="600" height="200px">
+<img src="Anexos/_src/image_4.png" width="400" height="400px">
 
 
 *Variables numéricas*
@@ -65,7 +65,7 @@ Se realiza un EDA a una tabla de datos [data_origen](https://www.datos.gov.co/Ed
 La variable desempeño determina una calificación en el desarrollo de las pruebas de 1 a 4. (siendo 1: Bajo, 4:Alto).<br>
 Para inglés  la calificación es (siendo 0.5: Bajo, 4:Alto)
 
-<img src="Anexos/_src/image_5.png" width="600" height="200px">
+<img src="Anexos/_src/image_6.png" width="800" height="450px">
 
 
 
