@@ -41,10 +41,12 @@ Se realiza un EDA a una tabla de datos [data_origen](https://www.datos.gov.co/Ed
 
 [Control de cambios](https://github.com/jospinoponce/EDA_ResultadoPruebasUniversitariasSaberPro/tree/main/Anexos/control_cambios) muestra detalladamente los cambios realizados en este proceso.
 ### Datos atípicos
-- Se grafica la distribución de las variables numéricas más representatívas.
 - Se emplea metodología 3 Sigma para detección de outliers.
+- Se realiza gestión a los outliers presentes en el dataset.
+- Se grafica la distribución de las variables numéricas más representatívas.
 
-<img src="Anexos/_src/image_1.png" width="700" height="350px"> 
+
+<img src="Anexos/_src/image_1.png" width="750" height="550px"> 
 
 <hr>
 
@@ -56,27 +58,29 @@ Se realiza un EDA a una tabla de datos [data_origen](https://www.datos.gov.co/Ed
 
 *Variables categoricas*
 
-<img src="Anexos/_src/image_2.png" width="600" height="400px">
-<img src="Anexos/_src/image_4.png" width="400" height="400px">
+<img src="Anexos/_src/image_2.png" width="750" height="450px">
+<img src="Anexos/_src/image_4.png" width="200" height="200px">
 
 
 *Variables numéricas*
 
-La variable desempeño determina una calificación en el desarrollo de las pruebas de 1 a 4. (siendo 1: Bajo, 4:Alto).<br>
-Para inglés  la calificación es (siendo 0.5: Bajo, 4:Alto)
+La variable desempeño determina una calificación en el desarrollo de las pruebas de 1 a 4. Donde ( 1: Bajo, 4:Alto).<br>
+Para inglés  la calificación es (0.5: Bajo, 4:Alto)
 
 <img src="Anexos/_src/image_6.png" width="800" height="450px">
 
 
 
 ### Correlación de varibles
+- Generación de Matriz de ceros y unos para las variables categóricas. 
+- Generación de Matriz de correlación
 
 <hr>
 
 **Notebook del analísis exploratorio de los datos:** [report_EDA](https://github.com/jospinoponce/EDA_ResultadoPruebasUniversitariasSaberPro/blob/main/report_EDA.ipynb)
 <hr>
 
-## DataWarehouse
+## Base de datos
 
 <hr>
 
@@ -84,5 +88,6 @@ Para inglés  la calificación es (siendo 0.5: Bajo, 4:Alto)
 <hr>
 
 ## Concluciones
+- La calidad de los datos es buena, los outliers no  .... 
 
 <hr>
