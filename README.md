@@ -4,13 +4,14 @@
 
 *El ICFES (Instituto Colombiano para la Evaluación de la Calidad de la Educación) realiza anualmente las Pruebas Saber Pro para conocer el desarrollo de las competencias de los estudiantes que están por finalizar sus carreras Universitarias.*<br>
 
-Se pretende llevar a cabo un análisis de datos a los resultados de estas pruebas desde 2018 hasta 2021 teniendo en cuenta el perfil socioeconómico de cada estudiante suministrado por el ICFES. <br>
+Se pretende implementar herramientas de ciencia de datos para analizar los resultados que los estudiantes obtuvieron en las pruebas Saberpro desde 2018 hasta 2021 teniendo en cuenta el perfil socioeconómico suministrado por el ICFES con el fin de identificar patrones y variables que tengan incidencia con el desempeño de los estudiantes en las pruebas. <br>
 
 Para el desarrollo del proyecto se realiza:
 
 **Analísis Exploratorío de Datos EDA.**<br>
 **Creación de una Base de datos relacional.**<br>
 **Visualización de los datos.** <br>
+**Modelamiento predictivo ML.** 
 <hr>
 
 ## Objetivos
@@ -50,7 +51,7 @@ Se realiza un EDA a una tabla de datos [data_origen](https://www.datos.gov.co/Ed
 
 <hr>
 
-## Interpretación de los datos e insights
+## Interpretación de los datos 
 - Se generan nuevas variables, correspondientes al desempeño general de los estudiantes en las pruebas. 
 - Se grafican las variables categóricas y numéricas.<br>
 
@@ -58,8 +59,8 @@ Se realiza un EDA a una tabla de datos [data_origen](https://www.datos.gov.co/Ed
 
 *Variables categoricas*
 
-<img src="Anexos/_src/image_2.png" width="750" height="450px">
-<img src="Anexos/_src/image_4.png" width="200" height="200px">
+<img src="Anexos/_src/image_2.png" width="800" height="450px">
+<img src="Anexos/_src/image_4.png" width="800" height="350px">
 
 
 *Variables numéricas*
