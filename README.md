@@ -4,7 +4,7 @@
 
 *El ICFES (Instituto Colombiano para la Evaluación de la Calidad de la Educación) realiza anualmente las Pruebas Saber Pro para conocer el desarrollo de las competencias de los estudiantes que están por finalizar sus carreras Universitarias.*<br>
 
-Se pretende implementar herramientas de ciencia de datos para analizar los resultados que los estudiantes obtuvieron en las pruebas Saberpro desde 2018 hasta 2021 teniendo en cuenta el perfil socioeconómico suministrado por el ICFES con el fin de identificar patrones y variables que tengan incidencia con el desempeño de los estudiantes en las pruebas. <br>
+Se pretende implementar herramientas de ciencia de datos para analizar los resultados que los estudiantes obtuvieron en las pruebas Saberpro desde 2018 hasta 2021 teniendo en cuenta el perfil socioeconómico suministrado por el ICFES con el fin de identificar patrones y variables que tengan incidencia con el desempeño de los alumnos en las pruebas. <br>
 
 Para el desarrollo del proyecto se realiza:
 
